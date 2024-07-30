@@ -16,3 +16,11 @@ Examples:
 
 
 // Solution
+
+function wordSearch(query, seq){
+  let reg = new RegExp(query,"i");
+  let res = seq.filter(function(val){
+    return reg.test(val);
+  });
+  return (res.length > 0) ? res : ["Empty"];
+}
