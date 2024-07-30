@@ -24,3 +24,5 @@ function wordSearch(query, seq){
   });
   return (res.length > 0) ? res : ["Empty"];
 }
+
+// or
