@@ -26,3 +26,12 @@ function wordSearch(query, seq){
 }
 
 // or
+
+const wordSearch = (query, seq) => {
+	let res = [], q = query.toLowerCase();
+	for (let item of seq) {
+  	let curr = item.toLowerCase();
+  	if (curr.indexOf(q) > -1) res.push(item);
+  }
+  return res.length ? res : ['Empty'];
+}
