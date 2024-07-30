@@ -13,3 +13,6 @@ Examples:
   If the string to search for is "me", and the array to search is 
   ["home", "milk", "Mercury", "fish"], the method should return ["home", "Mercury"].
 */
+
+
+// Solution
